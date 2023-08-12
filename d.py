@@ -1,7 +1,11 @@
 import colorama
+import os
 from colorama import init, Fore, Style
 
+
 init(autoreset=True)
+
+os.system('cls')
 
 print(Fore.LIGHTMAGENTA_EX + ''' 
 /$$$$$$$  /$$$$$$$   /$$$$$$   /$$$$$$        /$$$$$$$  /$$     /$$        /$$$$$$   /$$$$$$  /$$$$$$$  /$$$$$$$  /$$$$$$
